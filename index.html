@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Attarza – Essence of Purity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo-img"><img src="./logo img attarza.png" alt=""></div>
+        <div class="attar">
+            <h1>Attarza</h1>
+            <p>Essence of Purity</p>
+        </div>
+
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+    </section>
+
+    <!-- produce offer section  -->
+    <section>
+        <div class="hero-content">
+            <h2>Ramdan Offer</h2>
+            <p class="price">
+                <span class="regular">৳990</span>
+                <span class="offer">৳690</span>
+            </p>
+        </div>
+
+    </section>
+
+    <!-- PRODUCT SECTION -->
+    <section class="product-section">
+        <div class="product-container">
+
+            <div class="product-image">
+                <img src="productimg.png" alt="Attar Product">
+            </div>
+
+            <div class="product-details">
+                <h3>Attarza-Ramdan Combo</h3>
+                <p>
+                    A premium alcohol-free attar inspired by Sunnah lifestyle.
+                    Long-lasting fragrance with deep woody and oriental notes.
+                    Perfect for daily use and special occasions.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ORDER FORM -->
+    <section class="order-section">
+        <h2>Place Your Order</h2>
+
+        <form id="orderForm">
+
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <input type="number" id="quantity" placeholder="Quantity" min="1" value="1" required>
+
+            <select id="area">
+                <option value="60">Inside Dhaka (৳60)</option>
+                <option value="110">Outside Dhaka (৳110)</option>
+            </select>
+
+            <textarea id="address" placeholder="Full Delivery Address" required></textarea>
+
+            <div class="summary">
+                <p>Subtotal: ৳<span id="subtotal">690</span></p>
+                <p>Delivery: ৳<span id="delivery">60</span></p>
+                <h3>Total: ৳<span id="total">750</span></h3>
+            </div>
+
+            <button type="submit">Confirm Order via WhatsApp</button>
+
+        </form>
+    </section>
+
+    <footer>
+        © 2026 Attarza – Essence of Purity
+    </footer>
+
+    <!-- CONNECT JS -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
