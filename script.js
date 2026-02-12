@@ -35,7 +35,7 @@ document.getElementById("orderForm").addEventListener("submit", function (e) {
     let message =
         "🌿 Order from Attarza 🌿%0A%0A" +
         "Name: " + name + "%0A" +
-        "Product: Attarza-Ramdan Combo%0A" +
+        "Product: Attarza-Ramadan Combo%0A" +
         "Quantity: " + quantity + "%0A" +
         "Area: " + areaText + "%0A" +
         "Address: " + address + "%0A%0A" +
