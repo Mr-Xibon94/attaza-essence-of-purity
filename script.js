@@ -44,7 +44,7 @@ document.getElementById("orderForm").addEventListener("submit", function (e) {
         "Total: ৳" + total + "%0A" +
         "Payment: Cash on Delivery";
 
-    let phone = "8801515682554"; // Replace with your WhatsApp number
+    let phone = "8801978162949"; // Replace with your WhatsApp number
 
     window.open("https://wa.me/" + phone + "?text=" + message, "_blank");
 });
